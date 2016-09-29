@@ -1,4 +1,4 @@
-# HW2
+# Patterns
 
 ##Creational Design Pattern
 ### 1) Singleton:
@@ -61,5 +61,18 @@ State pattern is one of the behavioral design patterns which are used when an Ob
 
 Example: Consider the example of TV remote. A TV remote often has various functionalities, like volume control, program changing, power on/off etc. A remote here acts as the wrapping function and depending the state variable ( the button pressed) the remote performs appropriate actions.
 
+##Freestyle Design Patterns
+
+### BigData Design Patterns: Data Size Reduction Pattern
+Storing large amounts of data inside a Big Data solution environment can quickly exhaust the storage capacity, thereby requiring expansion of the existing storage expansion leading to increased costs. On the other hand, transferring very large files inside a cluster can affect the overall data processing time. Thus, a solution to this is to reduce the data’s storage footprint before it is stored in the Big Data Platform. A compression engine mechanism is introduced within the platform which works closely with the data transfer engine. In addition, already acquired data can be processed for a reduced data set.
 
 
+
+###Blackboard Pattern
+The blackboard architectural pattern provides a computational framework for the design and implementation of systems that need to integrate large and diverse specialized modules, and implement non-deterministic control strategies. The first step in designing a blackboard pattern is to understand the solution space and to identify the knowledge sources that can provide those solutions. Using these knowledge sources, triggering conditions can be added and input variables should be linked to the data and the results are to be put in the blackboard. The next step is to specify the control component which generally takes the form of a complex scheduler that makes use of a set of domain-specific learning to rate the relevance of executable knowledge sources.
+Blackboard patterns are used in domains like speech recognition, radio signal interpretations, etc.
+
+
+
+###Asynchronous Pattern
+Asynchronous pattern is a client-side support that doesn't block the calling thread when the system is in a wait state but instead notifies it when a reply arrives. In most languages a called method is executed synchronously. If the method requires long time to complete, for some reasons, the calling thread is blocked until the method has finished. As it is not desired, it is possible to start a "worker thread" and invoke the method from there. Asynchronous pattern augments a potentially long-running (synchronous) object method with an asynchronous variant that returns immediately, along with additional methods that make it easy to receive notification of completion, or to wait for completion at a later time.
