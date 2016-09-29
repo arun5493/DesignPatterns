@@ -3,7 +3,9 @@
 ##Creational Design Pattern
 ### 1) Singleton:
 Singleton pattern is used when the application requires only one instance of the object. This design pattern should be such that it allows initializations on demand and should be accessible globally. Singleton pattern is implemented when the ownership of a single instance cannot be distinctly assigned.
+
 <img src ="SingletonPattern.png"></img>
+
 Other design patterns such as Factory, Prototype can implement singleton design in them. Singleton pattern is implemented by declaring all constructors to be private and by providing a static method returning a reference to the instance.
 
 Example:
@@ -43,7 +45,7 @@ Example: Consider a UI that connects to a complex database. The UI will mostly b
 
 
 ## Behavioral design patterns
-###1) Template method
+###1) Template
 
 Template method is a type of behavioral pattern which defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior. The interfacing method that the user calls is actually the template method. For analogy purpose, we can even think about the concept of inheritance. The base class will hold a standard set of methods and the derived class can be modified such that new methods can be added, including the ones from the base class. Template Method uses inheritance to vary part of an algorithm whereas strategy uses delegation in modifying the algorithm. Factory method is a special form of template method.
 
