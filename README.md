@@ -3,7 +3,7 @@
 ##Creational Design Pattern
 ### 1) Singleton:
 Singleton pattern is used when the application requires only one instance of the object. This design pattern should be such that it allows initializations on demand and should be accessible globally. Singleton pattern is implemented when the ownership of a single instance cannot be distinctly assigned.
-
+![Alt text](/SingetonPattern.jpg?raw=true "Singleton Pattern")
 Other design patterns such as Factory, Prototype can implement singleton design in them. Singleton pattern is implemented by declaring all constructors to be private and by providing a static method returning a reference to the instance.
 
 Example:
