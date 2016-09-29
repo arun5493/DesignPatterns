@@ -1,6 +1,6 @@
 # HW2
 
-##Creational Design Patter
+##Creational Design Pattern
 ### 1) Singleton:
 Singleton pattern is used when the application requires only one instance of the object. This design pattern should be such that it allows initializations on demand and should be accessible globally. Singleton pattern is implemented when the ownership of a single instance cannot be distinctly assigned.
 
