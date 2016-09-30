@@ -83,7 +83,8 @@ GraphQL-based APIs is considered to be an evolved version of RESTful APIs.
 *	RESTful APIs lacks scalability and the number of requests it makes to the server to gather information is quite high. On the other hand, we can efficiently configure our GrapghQL to fetch all the data in a single request
 *	 The responses of the REST APIs will be containing some extra unnecessary information as well. i.e., there is no full control of the response we receive. GraphQL responses are request based and succinct.
 *	For GrapghQL, there are no overheads of reading and parsing the JSON responses.
-* Readability : GraphQL APIs are easy to read and understand, as compared to REST APIs
+* Readability : GraphQL APIs are easy to read and understand, as compared to REST APIs.
+
 ####Disadvantages:
 * User has to manually write the API for getting the desired response. Sometimes, when the user wants a chunk of data from the server, using a REST API would be easier than using GraphQL.
 * The success of GraphQL is yet to be seen. Thus, the growth of the GraphQL would require a long time. 
