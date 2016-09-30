@@ -1,5 +1,5 @@
-## Name : Arun Jaganathan
-## UnityID: ajagana
+#### Name : Arun Jaganathan
+#### UnityID: ajagana
 
 # Patterns
 
