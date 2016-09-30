@@ -99,7 +99,7 @@ Developers should be careful while updating the API, and also should properly do
 
 #Pokemon GO Architecture
 
-<img src ="PokemonGo.jpg"></img>
+<img src ="PokemonGo.JPG"></img>
 
 PokemonGo is a game which works on the concept of Augmented Reality. The game's concept is based on the famous comic 'Pokemon'. The following are the primary tasks performned by the App:
 * Location based map rendering: The user's location will be plotted in the game using google's server. Pokestops, Gym will be already marked in the map.
